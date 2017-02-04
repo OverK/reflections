@@ -1,0 +1,47 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It's pretty clear new bugs appear in the part of code where we made any changes,
+    so as diff command shows only places with changes it's allow us to find bugs easier
+    than look for them in the whole source file.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Having easy access to the entire history of a file make whatching on any changes more simple and
+    comfortable and if we decide to roll back to previous version of a file it won't provide any
+    difficulties because we will know which changes we have to revert.
+    We also can discard just one or a few changes which are unwanted for us for a file.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    pros are it gives are much more freedom to choose wich chanches we really nead
+    also it makes
+    also when we make commit we can provide it with a message containing an information
+    about changes we just made.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    I think it's because of Git is used when we work with programm source code 
+    we usually make changes to multiply while to achieve new feature or something
+    and all these files are connected to each other and our commit should describe
+    how multiply files got changed rather than only one did.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log allows to get through the whole history of all commits and get any commit's ID,
+    git diff shows us changes in a code which were made between two diffrent commits
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Making commits (another word snapshots) of a programm source code we can move through
+    any saved programm states not being affraid to break or loose a current state or
+    a working version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I'd like to try working on my current project  and use all power of git snapshots
