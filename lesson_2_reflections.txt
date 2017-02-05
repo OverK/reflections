@@ -33,6 +33,13 @@ What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
 	The result is that all changes of the code from both branches merge each other.
+	We get all changes made in both branches separetly in one branch.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+	pros: we save time by not doing it manually
+	cons: manually mergining is nessesary when changes affect the same section
+	and the machine cant make a decision which of them to include to the final result,
+	at this moment we have to consider these changes
+	and decide what should be in the result of merginig.
