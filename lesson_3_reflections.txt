@@ -20,7 +20,9 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    We can exaninate all potintial conflicts which could occur if we'd use pull,
+    this way we have time to think how to remove them and merge two branches
+    even being offline.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
