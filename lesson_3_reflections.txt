@@ -32,4 +32,5 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    to not to mess my master brench, also to fix possible mistakes before they'd
+    push to master and to resolve possible conflicts as well
